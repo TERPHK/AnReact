@@ -10,31 +10,52 @@ const Jomalone = ({ }) => {
                 <Text style={[styles.customText, { marginTop: 5, }]}>
                     JO MALONE
                 </Text>
-                
+
             </View>
 
             <ScrollView>
                 <View style={styles.innerContainer0}>
+                    <Image source={require('../img/jm/bigpic.png')} style={styles.bigpic} />
+                </View>
+                <View style={styles.innerContainer1}>
+                    <Image source={require('../img/jm/pg1.png')} style={styles.img} />
+                    <Image source={require('../img/jm/pg2.png')} style={styles.img} />
 
-                    <Image source={require('../img/bigpic1.png')} style={styles.bigpic} />
+
+                </View>
+                <View style={styles.innerContainer1}>
+                    <Image source={require('../img/jm/pg3.png')} style={styles.img} />
+                    <Image source={require('../img/jm/pg4.png')} style={styles.img} />
+
 
                 </View>
 
                 <View style={styles.innerContainer1}>
-                    <Image source={require('../img/1.png')} style={styles.img} />
-                    <Image source={require('../img/2.png')} style={styles.img} />
+                    <Image source={require('../img/jm/pg5.png')} style={styles.img} />
+                    <Image source={require('../img/jm/pg6.png')} style={styles.img} />
+
+
+                </View>
+                <View style={styles.innerContainer1}>
+                    <Image source={require('../img/jm/pg7.png')} style={styles.img} />
+                    <Image source={require('../img/jm/pg8.png')} style={styles.img} />
+
+
+                </View>
+
+                <View style={styles.innerContainer1}>
+                    <Image source={require('../img/jm/pg9.png')} style={styles.img} />
+                    <Image source={require('../img/jm/pg10.png')} style={styles.img} />
+
+
+                </View>
+                <View style={styles.innerContainer1}>
+                    <Image source={require('../img/jm/pg11.png')} style={styles.img} />
+                    <Image source={require('../img/jm/pg12.png')} style={styles.img} />
+
 
                 </View>
                 
-                <View style={styles.innerContainer2}>
-                    <Image source={require('../img/bigpic2.png')} style={styles.bigpic} />
-
-                </View>
-                <View style={styles.innerContainer3}>
-                    <Image source={require('../img/logo.jpg')} style={styles.img} />
-                    <Image source={require('../img/logo.jpg')} style={styles.img} />
-
-                </View>
             </ScrollView>
         </View>
 
@@ -78,17 +99,10 @@ const styles = StyleSheet.create({
         paddingTop: 10,
         paddingBottom: 10,
         height: 200,
-        width: 500,
+        width: 50,
         alignItems: 'center',
     },
-    innerContainer3: {
-        flexDirection: 'row',
-        paddingTop: 0,
-        paddingLeft: 5,
-        paddingRight: 5,
-        alignItems: 'center',
-        borderRadius: 10,
-    },
+    
 
     //รูปน้ำหอมช่องเล็ก
     img: {

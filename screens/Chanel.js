@@ -1,69 +1,66 @@
 import React from 'react';
 import { View, Text, Image, StyleSheet, ScrollView, Pressable } from 'react-native';
 
-const Dior = ({ }) => {
+const Chanel = ({ }) => {
 
     return (
 
         <View style={styles.container}>
             <View style={styles.Headers}>
                 <Text style={[styles.customText, { marginTop: 5, }]}>
-                    DIOR
+                    CHANEL
                 </Text>
             </View>
 
             <ScrollView>
                 <View style={styles.innerContainer0}>
 
-                    <Image source={require('../img/bigpic1.png')} style={styles.bigpic} />
+                    <Image source={require('../img/cn/bigpic1.png')} style={styles.bigpic} />
 
                 </View>
-
                 <View style={styles.innerContainer1}>
-                    <Image source={require('../img/1.png')} style={styles.img} />
-                    <Image source={require('../img/2.png')} style={styles.img} />
+                    <Image source={require('../img/cn/1.png')} style={styles.img} />
+                    <Image source={require('../img/cn/2.png')} style={styles.img} />
 
 
                 </View>
                 <View style={styles.innerContainer3}>
-                    <Image source={require('../img/3.png')} style={styles.img} />
-                    <Image source={require('../img/2.png')} style={styles.img} />
+                    <Image source={require('../img/cn/3.png')} style={styles.img} />
+                    <Image source={require('../img/cn/2.png')} style={styles.img} />
 
 
                 </View>
 
-                <View style={styles.innerContainer2}>
-                    <Image source={require('../img/bigpic2.png')} style={styles.bigpic} />
 
-                </View>
                 <View style={styles.innerContainer4}>
-                    <Image source={require('../img/5.png')} style={styles.img} />
-                    <Image source={require('../img/6.png')} style={styles.img} />
+                    <Image source={require('../img/cn/5.png')} style={styles.img} />
+                    <Image source={require('../img/cn/6.png')} style={styles.img} />
+
+                </View>
+                <View style={styles.innerContainer0}>
+
+                    <Image source={require('../img/cn/bigpic3.png')} style={styles.bigpic} />
 
                 </View>
                 <View style={styles.innerContainer5}>
-                    <Image source={require('../img/7.png')} style={styles.img} />
-                    <Image source={require('../img/8.png')} style={styles.img} />
+                    <Image source={require('../img/cn/7.png')} style={styles.img} />
+                    <Image source={require('../img/cn/8.png')} style={styles.img} />
 
-                </View>
-
-                <View style={styles.innerContainer6}>
-                    <Image source={require('../img/bigpic3.png')} style={styles.bigpic} />
 
                 </View>
                 <View style={styles.innerContainer7}>
-                    <Image source={require('../img/9.png')} style={styles.img} />
-                    <Image source={require('../img/10.png')} style={styles.img} />
+                    <Image source={require('../img/cn/9.png')} style={styles.img} />
+                    <Image source={require('../img/cn/10.png')} style={styles.img} />
+
+
                 </View>
                 <View style={styles.innerContainer8}>
-                    <Image source={require('../img/11.png')} style={styles.img} />
-                    <Image source={require('../img/white.png')} style={styles.img} />
-                </View>
-                
+                    <Image source={require('../img/cn/11.png')} style={styles.img} />
+                    <Image source={require('../img/cn/white.png')} style={styles.img} />
 
-                
-                
-                
+
+                </View>
+
             </ScrollView>
         </View>
 
@@ -158,7 +155,7 @@ const styles = StyleSheet.create({
         alignItems: 'center',
         borderRadius: 10,
     },
-   
+
     //รูปน้ำหอมช่องเล็ก
     img: {
         borderRadius: 4,
@@ -182,4 +179,4 @@ const styles = StyleSheet.create({
 
 });
 
-export default Dior;
+export default Chanel;
